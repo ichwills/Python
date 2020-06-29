@@ -1,0 +1,7 @@
+name=(input("姓名："))
+studentID=(input("学号："))
+print("双十二商场促销,原价16元的珍珠奶茶优惠价12.12元!")
+nc_num=float(input("请问你要购买几杯特价奶茶："))
+total_money=float(float(nc_num)*12.12)
+pay_money=int(total_money)
+print(nc_num,"杯珍珠奶茶合计:{:.2f}".format(total_money),"实收：",pay_money)
